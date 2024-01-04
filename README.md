@@ -1,5 +1,5 @@
 # AI Chatterbox API
-This repository contains a Node.js Express API that integrates with various AI models for natural language processing and image generation. The API includes endpoints for interacting with OpenAI's GPT-3.5 Turbo, Google's Generative AI (Gemini), and OpenAI's DALL-E-2.
+This repository contains a Node.js Express API that integrates with various AI models for natural language processing and image generation. The API includes endpoints for interacting with OpenAI's GPT-3.5 Turbo, Google's Generative AI (Gemini), and OpenAI's DALL-E-3.
 
 ## Setup
 
@@ -19,8 +19,8 @@ npm start
 **The API will be accessible at http://localhost:3000.**
 
 ## Endpoints
-**1. GPT Endpoint**</br>
-#### Request </br>
+## 1. GPT Endpoint</br>
+### Request </br>
 **Endpoint: `POST /gpt`**
 
 Body:
@@ -30,10 +30,10 @@ Body:
 }`
 
 ### Response
-**The response will be the generated message from GPT-3.5 Turbo.**
+The response will be the generated message from GPT-3.5 Turbo.
 
-**2. Gemini Endpoint**</br>
-#### Request</br>
+## 2. Gemini Endpoint</br>
+### Request</br>
 **Endpoint: `POST /gemini`**
 
 Body:
@@ -49,8 +49,8 @@ Body:
 ### Response
 The response will be the generated message from Gemini (Google Generative AI).
 
-**3. DALL-E Endpoint**</br>
-#### Request</br>
+## 3. DALL-E Endpoint</br>
+### Request</br>
 **Endpoint: `POST /dalle`**
 
 Body:
