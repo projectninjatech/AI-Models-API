@@ -55,9 +55,9 @@ Request
 
 Body:
 
-{
+`{
   "userMsg": "Prompt for DALL-E image generation"
-}
+}`
 
 ### Response
 The response will contain a URL to the generated image by DALL-E-2.
